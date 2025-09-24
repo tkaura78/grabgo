@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services | GrabGo Vending</title>
+    <link rel="icon" href="assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="brand" href="index.html"><img class="brand-logo" src="images/logo.png" alt="GrabGo logo"><span class="brand-text">GrabGo</span></a>
+            <nav class="nav" aria-label="Main Navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu"><span class="sr-only">Toggle navigation</span><i class="fa-solid fa-bars"></i></button>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" aria-current="page">Services</a></li>
+                    <li><a href="contact.html" class="btn btn-primary btn-sm">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section hero">
+            <div class="container">
+                <h1>Products & Services</h1>
+                <p class="section-lead">Snacks, beverages, and combo packs with cashless payments and smart restocking.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="cards-grid">
+                    <article class="card">
+                        <img src="images/chips.jpeg" alt="Assorted packaged snacks">
+                        <div class="card-body">
+                            <h3><i class="fa-solid fa-cookie-bite"></i> Snacks</h3>
+                            <p>Chips, biscuits, protein bars, and healthy bites. Customizable selection.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/softdrinks.jpeg" alt="Cold beverages and juices">
+                        <div class="card-body">
+                            <h3><i class="fa-solid fa-bottle-water"></i> Beverages</h3>
+                            <p>Cold drinks, juices, bottled water, and energy beverages.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/combopacks.png" alt="Combo of snacks and drinks">
+                        <div class="card-body">
+                            <h3><i class="fa-solid fa-box-open"></i> Combo Packs</h3>
+                            <p>Value bundles mixing snacks and beverages for teams and events.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <h2>Why Choose Us</h2>
+                <div class="features">
+                    <div class="feature"><i class="fa-solid fa-shield-heart"></i><h3>100% Hygiene</h3><p>Sanitized and quality-checked machines.</p></div>
+                    <div class="feature"><i class="fa-solid fa-clock"></i><h3>24/7 Availability</h3><p>Always on, always stocked.</p></div>
+                    <div class="feature"><i class="fa-solid fa-wallet"></i><h3>Cashless Payments</h3><p>UPI and contactless.</p></div>
+                    <div class="feature"><i class="fa-solid fa-location-dot"></i><h3>Local Support</h3><p>Trusted across Jalandhar.</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand" href="index.html"><img class="brand-logo" src="images/logo.png" alt="GrabGo logo"><span class="brand-text">GrabGo</span></a>
+                <p class="footnote">© <span id="year"></span> GrabGo.</p>
+            </div>
+            <div class="footer-cta">
+                <a href="contact.html" class="btn btn-primary">Book a Machine</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

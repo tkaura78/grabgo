@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | GrabGo Vending</title>
+    <link rel="icon" href="assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="brand" href="index.html"><img class="brand-logo" src="images/logo.png" alt="GrabGo logo"><span class="brand-text">GrabGo</span></a>
+            <nav class="nav" aria-label="Main Navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu"><span class="sr-only">Toggle navigation</span><i class="fa-solid fa-bars"></i></button>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="btn btn-primary btn-sm" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="section-lead">Address, phone, email, and a quick inquiry form.</p>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <div class="info-item"><i class="fa-solid fa-location-dot"></i> <span>Jalandhar, Punjab, India</span></div>
+                    <div class="info-item"><i class="fa-solid fa-phone"></i> <a href="tel:+919999999999">+91 7696781919
+                    
+                    </a></div>
+                    <div class="info-item"><i class="fa-solid fa-envelope"></i> <a href="mailto:hello@grabgo.in">hello@grabgo.in</a></div>
+                </div>
+                <form class="contact-form" id="inquiry-form" novalidate>
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="grabgo71@gmail.com" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">Phone</label>
+                        <input id="phone" name="phone" type="tel" placeholder="Your phone number">
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your location and needs" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Contact Us Today</button>
+                    <p class="form-success" role="status" aria-live="polite" hidden>Thanks! We'll get back to you shortly.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand" href="index.html"><img class="brand-logo" src="images/logo.png" alt="GrabGo logo"><span class="brand-text">GrabGo</span></a>
+                <p class="footnote">© <span id="year"></span> GrabGo.</p>
+            </div>
+            <div class="footer-cta">
+                <a href="contact.html" class="btn btn-primary">Book a Machine</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
