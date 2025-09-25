@@ -17,6 +17,27 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVQF3RrZ9eMw5y5q5Q5e0SYJig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adjusted padding for main sections */
+        .hero.section {
+            padding: 48px 24px 36px 24px;
+        }
+        .section.section-alt {
+            padding: 36px 24px 44px 24px;
+        }
+        .welcome-container.split {
+            padding: 32px 24px;
+        }
+        @media (max-width: 720px) {
+            .hero.section,
+            .section.section-alt {
+                padding: 28px 12px 18px 12px;
+            }
+            .welcome-container.split {
+                padding: 18px 6px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="site-header">
@@ -63,7 +84,7 @@
         </section>
         
         <section class="section section-alt">
-            <div class="container split">
+            <div class="welcome-container split">
                 <div>
                     <h2>Welcome to GrabGo</h2>
                     <p>We deliver modern vending solutions across Jalandhar with a focus on hygiene, convenience, and cashless payments. Explore our services and get in touch to install a machine at your location.</p>
@@ -98,5 +119,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
